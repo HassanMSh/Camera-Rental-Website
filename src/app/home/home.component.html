@@ -1,0 +1,93 @@
+<div class="container-fluid ">
+    <div class="p-3 p-md-5 m-md-3 text-center" style="background-image: url(../../assets/images/background2.jpg);">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal text-white">Welcom To Cinérent</h1>
+            <p class="lead font-weight-normal text-white">A moving stuidio</p>
+            <a class="btn btn-lg btn-outline-secondary text-white" href="#" [ngxScrollTo]="down"
+                (click)="showServices()"> Rent Now</a>
+        </div>
+    </div>
+
+    <div class="container-fluid" [hidden]="isShow" #down>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <a routerLink="/allservices/services" class="btn h-100">
+                    <div class="card h-100">
+                        <img class="card-img-top h-100" src="../../assets/images/cinamatographer.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Services</h5>
+                            <p class="card-text">Standing sets, set rentals, lighting, set props, stage lighting, and
+                                studio
+                                space available to rent.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <a routerLink="/allservices/camera" class="btn h-100">
+                    <div class="card h-100">
+                        <img class="card-img-top h-100" src="../../assets/images/camera equipment.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cameras</h5>
+                            <p class="card-text">Standing sets, set rentals, lighting, set props, stage lighting, and
+                                studio
+                                space available to rent.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <a routerLink="/allservices/sound" class="btn h-100">
+                    <div class="card h-100">
+                        <img class="card-img-top h-100" src="../../assets/images/sound equipment.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Sound Equipment</h5>
+                            <p class="card-text">Standing sets, set rentals, lighting, set props, stage lighting, and
+                                studio
+                                space available to rent.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <a routerLink="/allservices/lighting" class="btn h-100">
+                    <div class="card h-100">
+                        <img class="card-img-top h-100" src="../../assets/images/lighting.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Lighting</h5>
+                            <p class="card-text">Standing sets, set rentals, lighting, set props, stage lighting, and
+                                studio
+                                space available to rent.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <a routerLink="/allservices/accessories" class="btn h-100">
+                    <div class="card h-100">
+                        <img class="card-img-top h-100" src="../../assets/images/accessories.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Accessories</h5>
+                            <p class="card-text">Standing sets, set rentals, lighting, set props, stage lighting, and
+                                studio
+                                space available to rent.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                <a routerLink="allservices/studio" class="btn h-100">
+                    <div class="card h-100">
+                        <img class="card-img-top h-100" src="../../assets/images/studio.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Rent A Studio</h5>
+                            <p class="card-text">Standing sets, set rentals, lighting, set props, stage lighting, and
+                                studio
+                                space available to rent.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

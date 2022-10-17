@@ -1,0 +1,18 @@
+<div class="container mt-4">
+    <div>
+        <div class="col">
+            <table class="table">
+                <tr>
+                    <th *ngFor="let column of headers">
+                        {{column}}
+                    </th>
+                </tr>
+                <tr *ngFor="let row of items">
+                    <td *ngFor="let column of headers">
+                        {{ row[column] }}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
