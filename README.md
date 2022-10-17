@@ -4,6 +4,6 @@
 
 This was for Advanced Webdesign
 
-Uncompleted Angular | PHP | HTML | Bootstrap camera rental website.
+Semi-Completed [ Angular | PHP | HTML | Bootstrap ] camera rental website.
 
 ***********************
