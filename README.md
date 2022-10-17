@@ -1,4 +1,4 @@
-# Angular-Project1
+# Camera-Rental-Website
 
 **********************
 
